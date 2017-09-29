@@ -109,3 +109,4 @@ def getTriterm(words, join_string):
         # set it as biterm
         lst = getBiterm(words, join_string)
     return lst
+^^^()()^^^

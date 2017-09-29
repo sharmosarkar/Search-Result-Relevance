@@ -200,3 +200,4 @@ def clean_text(line, drop_html_flag=False):
 ###################
 def drop_html(html):
     return BeautifulSoup(html).get_text(separator=" ")
+^^^()()^^^

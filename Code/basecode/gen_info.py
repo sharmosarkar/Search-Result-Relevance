@@ -109,3 +109,4 @@ def gen_info(feat_path_name):
     dfTest_original.to_csv("%s/%s/All/test.info" % (config.feat_folder, feat_path_name), index=False, header=True)
     
     print("All Done.")
+^^^()()^^^

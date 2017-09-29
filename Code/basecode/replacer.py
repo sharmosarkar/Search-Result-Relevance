@@ -64,3 +64,4 @@ class AntonymReplacer(object):
             words.append(word)
             i += 1
         return words
+^^^()()^^^

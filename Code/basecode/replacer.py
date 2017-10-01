@@ -65,3 +65,4 @@ class AntonymReplacer(object):
             i += 1
         return words
 ^^^()()^^^
+^^^()()^^^

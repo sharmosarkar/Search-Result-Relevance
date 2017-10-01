@@ -167,3 +167,4 @@ def combine_feat(feat_names, feat_path_name):
     dump_svmlight_file(X_train, Y_train, "%s/train.feat" % (save_path))
     dump_svmlight_file(X_test, Y_test, "%s/test.feat" % (save_path))
 ^^^()()^^^
+^^^()()^^^

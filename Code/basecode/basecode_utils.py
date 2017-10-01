@@ -41,3 +41,5 @@ def dump_feat_name(feat_names, feat_name_file):
 	        else:
 	            f.write("('%s', SimpleTransform()),\n" % feat_name)
 ^^^()()^^^
+^^^()()^^^
+^^^()()^^^

@@ -378,3 +378,4 @@ if __name__ == "__main__":
     gen_info(feat_path_name="LSA_svd150_and_Jaccard_coef_Jun14")
     combine_feat(feat_names, feat_path_name="LSA_svd150_and_Jaccard_coef_Jun14")    
 ^^^()()^^^
+^^^()()^^^

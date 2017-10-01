@@ -35,3 +35,4 @@ if __name__ == "__main__":
         with open("%s/stratifiedKFold.%s.pkl" % (config.data_folder, stratified_label), "wb") as f:
             cPickle.dump(skf, f, -1)
 ^^^()()^^^
+^^^()()^^^

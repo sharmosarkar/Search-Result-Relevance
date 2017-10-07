@@ -12,7 +12,7 @@ FILES="$(ls)"
 for f in $FILES
 do
   echo $f
-  if [ $rem -eq 1 ]
+  if [ $rem -eq 0 ]
   then
     echo "Odd"
 	printf "\n^^^()()^^^" >> $f
@@ -31,4 +31,3 @@ git rm realwork.txt
 git commit -m 'delete'
 git push
 
-^^^()()^^^

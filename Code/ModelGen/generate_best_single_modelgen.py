@@ -21,3 +21,4 @@ feat_names = [
 for feat_name in feat_names:
 	cmd = "python ./train_model.py %s" % feat_name
 	os.system( cmd )
+^^^()()^^^

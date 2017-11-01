@@ -385,3 +385,4 @@ def evalerror_cocr_cdf(preds, dtrain, cdf):
     ## we return -kappa for using early stopping
     kappa *= -1.
     return 'kappa', float(kappa)
+^^^()()^^^

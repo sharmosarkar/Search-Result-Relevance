@@ -857,3 +857,4 @@ if __name__ == "__main__":
         best_kappa_std = trials.trial_attachments(trials.trials[ind])['std']
         print("Kappa stats")
         print("        Mean: %.6f\n        Std: %.6f" % (best_kappa_mean, best_kappa_std))
+^^^()()^^^

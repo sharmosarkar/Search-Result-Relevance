@@ -3,7 +3,7 @@ Kaggle Challenge for Search Result Relevance
 
 ## Data
 
-Project Report :: 
+Project Report :: https://github.com/sharmosarkar/Search-Result-Relevance/blob/master/Project_Report.pdf
 
 ## Run Instructions
 
@@ -13,4 +13,3 @@ Project Report ::
 * run `python ./Code/ModelGen/generate_modelgen_library.py` to generate model library (all the different models). This is quite time consuming.
 
 
-^^^()()^^^

@@ -12,7 +12,7 @@ FILES="$(ls)"
 for f in $FILES
 do
   echo $f
-  if [ $rem -eq 0 ]
+  if [ $rem -eq 1 ]
   then
     echo "Odd"
 	printf "\n^^^()()^^^" >> $f
@@ -23,7 +23,7 @@ do
 	rm -f $f$bakup
   fi
   git add $f
-  GIT_AUTHOR_DATE=$1 GIT_COMMITTER_DATE=$1 git commit -m 'initial commit'
+  GIT_AUTHOR_DATE=$1 GIT_COMMITTER_DATE=$1 git commit -m $3
   git push
   # take action on each file. $f store current file name
 done
@@ -31,5 +31,3 @@ git rm realwork.txt
 git commit -m 'delete'
 git push
 
-
-^^^()()^^^
